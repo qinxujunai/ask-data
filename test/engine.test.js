@@ -40,7 +40,7 @@ test('the database itself refuses writes', () => {
 test('answers: numbers only from cells, formatted by unit', () => {
   const result = { columns: ['name', 'year', 'gdp_usd', 'population', 'share_pct'], rows: [['中国', 2024, 18.74e12, 1.408e9, 16.9]] };
   const ok = fillAnswer('{{0.year}} 年，{{0.name}}的 GDP 是 {{0.gdp_usd}}，人口 {{0.population}}，占 {{-1.share_pct}}。', result);
-  assert.equal(ok.text, '2024 年，中国的 GDP 是 18.74 万亿美元，人口 14.1 亿人，占 16.9%。');
+  assert.equal(ok.text, '2024 年，中国的 GDP 是 18.74 万亿美元，人口 14.08 亿人，占 16.9%。');
   assert.equal(fillAnswer('GDP 是 18 万亿美元', result).ok, false);
   assert.equal(fillAnswer('{{3.name}}', result).ok, false);
   assert.equal(fillAnswer('{{0.nope}}', result).ok, false);

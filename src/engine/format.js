@@ -9,7 +9,7 @@ const trim = (n, digits) => Number(n.toFixed(digits)).toLocaleString('zh-CN', { 
 function big(n, unit) {
   const a = Math.abs(n);
   if (a >= 1e12) return `${trim(n / 1e12, 2)} 万亿${unit}`;
-  if (a >= 1e8) return `${trim(n / 1e8, a >= 1e11 ? 0 : 1)} 亿${unit}`;
+  if (a >= 1e8) return `${trim(n / 1e8, a >= 1e11 ? 0 : 2)} 亿${unit}`;
   if (a >= 1e4) return `${trim(n / 1e4, 1)} 万${unit}`;
   return `${trim(n, 0)} ${unit}`.trim();
 }
