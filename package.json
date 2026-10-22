@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@observablehq/plot": "^0.6.17",
+    "minisearch": "^7.2.0",
+    "sql.js": "^1.15.1"
+  },
+  "devDependencies": {
+    "csv-parse": "^7.0.3",
+    "vite": "^8.3.5"
+  },
+  "name": "ask-data",
+  "version": "1.0.0",
+  "private": true,
+  "description": "问数：用一句话问数据。模型只写查询，数字由数据库现场算出。",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/build-db.mjs && vite build",
+    "preview": "vite preview",
+    "test": "node scripts/build-db.mjs && node --test test/*.test.js",
+    "data": "node scripts/fetch-data.mjs && node scripts/build-db.mjs",
+    "eval": "node scripts/eval.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

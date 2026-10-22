@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>问数 · 用一句话问数据</title>
+<meta name="description" content="用一句话问世界银行的数据。模型只写查询，数字由数据库在你的浏览器里现场算出，每个答案都能核对。">
+<meta property="og:title" content="问数">
+<meta property="og:description" content="用一句话问数据。模型只写查询，数字由数据库现场算出，每个答案都能核对。">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='4' fill='%231d1d1f'/%3E%3Crect x='3.5' y='8' width='2' height='4.5' rx='.6' fill='%23fff'/%3E%3Crect x='7' y='5.5' width='2' height='7' rx='.6' fill='%23fff'/%3E%3Crect x='10.5' y='3.5' width='2' height='9' rx='.6' fill='%23fff'/%3E%3C/svg%3E">
+</head>
+<body>
+<a class="skip" href="#q">跳到提问</a>
+<header class="bar"><div class="bar-in"><a class="brand" href="./">问数</a><nav aria-label="主导航"><a href="#how">怎么做到的</a><a href="#data">数据</a><a class="hide-s" href="https://github.com/qinxujunai/ask-data">GitHub</a></nav></div></header>
+
+<main>
+  <section class="hero wrap">
+    <p class="eyebrow">AI 问数</p>
+    <h1>用一句话问数据</h1>
+    <p class="lede">模型只写查询，数字由数据库现场算出。每个答案，都能核对。</p>
+
+    <form id="ask" class="ask" role="search">
+      <label class="visually-hidden" for="q">你的问题</label>
+      <input id="q" name="q" type="text" autocomplete="off" enterkeyhint="send" placeholder="比如：中国 GDP 占世界的比重是怎么变化的？" maxlength="200">
+      <button class="button" type="submit">问</button>
+    </form>
+    <ul id="chips" class="chips" aria-label="可以直接问的问题"></ul>
+    <p id="keynote" class="keynote"></p>
+    <p id="status" class="muted" role="status"></p>
+  </section>
+
+  <section id="result" class="wrap result" aria-live="polite" hidden></section>
+
+  <section id="how" class="wrap how" aria-labelledby="how-title">
+    <h2 id="how-title">为什么能信</h2>
+    <div class="trio">
+      <div><h3>模型不写数字</h3><p>模型只负责把问题翻译成查询，再写一句话。句子里的每个数字都是占位符，由程序从查询结果里填进去；模型自己写了数字，这句话就不显示。</p></div>
+      <div><h3>查询有边界</h3><p>只允许一条只读查询，最多 500 行，超过 4 秒就停。数据库本身也设成了只读：就算有查询溜过检查，也改不了数据。</p></div>
+      <div><h3>每一步都摊开</h3><p>检索到了哪些口径、模型写了什么查询、改过几次、跑了几毫秒，都写在答案下面。SQL 可以复制出去自己再跑一遍。</p></div>
+    </div>
+
+    <h2 class="sub-title">一个问题经过的五步</h2>
+    <ol class="steps">
+      <li><strong>检索</strong><span>从指标说明、业务口径、验证过的示例里，找出和问题有关的几条；认出问题里的国家。</span></li>
+      <li><strong>写查询</strong><span>只把检索到的内容和表结构交给模型，让它写一条 SQL。问题在示例库里，就直接用验证过的查询。</span></li>
+      <li><strong>检查</strong><span>不是单条只读查询，就拦下；连同数据库的报错交回给模型，只给一次修正的机会。</span></li>
+      <li><strong>运行</strong><span>在你的浏览器里运行。数据和数据库都在这个网页里，不经过任何服务器。</span></li>
+      <li><strong>回答</strong><span>模型写一句话，数字由程序按单位填入；结果表和图表照原样给你。</span></li>
+    </ol>
+    <p class="quote">先立边界，再把概率压成确定性。</p>
+  </section>
+
+  <section id="data" class="wrap data" aria-labelledby="data-title">
+    <h2 id="data-title">数据</h2>
+    <p>世界银行《世界发展指标》，CC BY 4.0 许可。217 个国家和地区，加上世界、收入组、欧盟等汇总口径；1990 到 2024 年，下面这 17 个指标。</p>
+    <ul id="indicators" class="indicators"></ul>
+    <p class="muted">没有数据的年份是空着的，不会被补上。最新年份各指标不同，比如可再生能源通常晚两三年。</p>
+  </section>
+</main>
+
+<dialog id="keydlg" aria-labelledby="keydlg-title">
+  <form id="keyform" method="dialog">
+    <h2 id="keydlg-title">用你自己的 DeepSeek key</h2>
+    <p>有了 key 就能问任意问题。key 从你的浏览器直接发给 DeepSeek，不经过任何服务器；每个问题大约花费不到一分钱。</p>
+    <label for="key">API key</label>
+    <input id="key" type="password" autocomplete="off" spellcheck="false" placeholder="sk-…">
+    <label class="check"><input id="remember" type="checkbox"> 记在这个浏览器里</label>
+    <p class="muted">在 <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">platform.deepseek.com</a> 创建。</p>
+    <div class="dlg-actions">
+      <button type="button" id="forget" class="link">清除</button>
+      <button value="cancel" class="link">取消</button>
+      <button value="save" class="button">保存</button>
+    </div>
+  </form>
+</dialog>
+
+<footer><div class="wrap"><span>问数 · MIT 许可 · 数据来自世界银行（CC BY 4.0）</span><span>由 <a href="https://qinxujunai.github.io/">秦徐俊</a> 制作</span></div></footer>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>

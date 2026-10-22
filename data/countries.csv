@@ -1,0 +1,265 @@
+code,name,name_en,region,income,is_aggregate
+ABW,阿鲁巴,Aruba,拉丁美洲与加勒比海地区,高收入国家,0
+AFG,阿富汗,Afghanistan,中东、北非、阿富汗与巴基斯坦,低收入国家,0
+AGO,安哥拉,Angola,撒哈拉以南非洲地区,中低等收入国家,0
+ALB,阿尔巴尼亚,Albania,欧洲与中亚地区,中高等收入国家,0
+AND,安道尔共和国,Andorra,欧洲与中亚地区,高收入国家,0
+ARB,阿拉伯联盟国家,Arab World,,,1
+ARE,阿拉伯联合酋长国,United Arab Emirates,中东、北非、阿富汗与巴基斯坦,高收入国家,0
+ARG,阿根廷,Argentina,拉丁美洲与加勒比海地区,中高等收入国家,0
+ARM,亚美尼亚,Armenia,欧洲与中亚地区,中高等收入国家,0
+ASM,美属萨摩亚,American Samoa,东亚与太平洋地区,高收入国家,0
+ATG,安提瓜和巴布达,Antigua and Barbuda,拉丁美洲与加勒比海地区,高收入国家,0
+AUS,澳大利亚,Australia,东亚与太平洋地区,高收入国家,0
+AUT,奥地利,Austria,欧洲与中亚地区,高收入国家,0
+AZE,阿塞拜疆,Azerbaijan,欧洲与中亚地区,中高等收入国家,0
+BDI,布隆迪,Burundi,撒哈拉以南非洲地区,低收入国家,0
+BEL,比利时,Belgium,欧洲与中亚地区,高收入国家,0
+BEN,贝宁,Benin,撒哈拉以南非洲地区,中低等收入国家,0
+BFA,布基纳法索,Burkina Faso,撒哈拉以南非洲地区,低收入国家,0
+BGD,孟加拉国,Bangladesh,南亚,中低等收入国家,0
+BGR,保加利亚,Bulgaria,欧洲与中亚地区,高收入国家,0
+BHR,巴林,Bahrain,中东、北非、阿富汗与巴基斯坦,高收入国家,0
+BHS,巴哈马,"Bahamas, The",拉丁美洲与加勒比海地区,高收入国家,0
+BIH,波斯尼亚和黑塞哥维那,Bosnia and Herzegovina,欧洲与中亚地区,中高等收入国家,0
+BLR,白俄罗斯,Belarus,欧洲与中亚地区,中高等收入国家,0
+BLZ,伯利兹,Belize,拉丁美洲与加勒比海地区,中高等收入国家,0
+BMU,百慕大,Bermuda,北美,高收入国家,0
+BOL,玻利维亚,Bolivia,拉丁美洲与加勒比海地区,中低等收入国家,0
+BRA,巴西,Brazil,拉丁美洲与加勒比海地区,中高等收入国家,0
+BRB,巴巴多斯,Barbados,拉丁美洲与加勒比海地区,高收入国家,0
+BRN,文莱达鲁萨兰国,Brunei Darussalam,东亚与太平洋地区,高收入国家,0
+BTN,不丹,Bhutan,南亚,中低等收入国家,0
+BWA,博茨瓦纳,Botswana,撒哈拉以南非洲地区,中高等收入国家,0
+CAF,中非共和国,Central African Republic,撒哈拉以南非洲地区,低收入国家,0
+CAN,加拿大,Canada,北美,高收入国家,0
+CEB,中歐和波羅的海,Central Europe and the Baltics,,,1
+CHE,瑞士,Switzerland,欧洲与中亚地区,高收入国家,0
+CHI,海峡群岛,Channel Islands,欧洲与中亚地区,高收入国家,0
+CHL,智利,Chile,拉丁美洲与加勒比海地区,高收入国家,0
+CHN,中国,China,东亚与太平洋地区,中高等收入国家,0
+CIV,科特迪瓦,Cote d'Ivoire,撒哈拉以南非洲地区,中低等收入国家,0
+CMR,喀麦隆,Cameroon,撒哈拉以南非洲地区,中低等收入国家,0
+COD,刚果（金）,"Congo, Dem. Rep.",撒哈拉以南非洲地区,低收入国家,0
+COG,刚果（布）,"Congo, Rep.",撒哈拉以南非洲地区,中低等收入国家,0
+COL,哥伦比亚,Colombia,拉丁美洲与加勒比海地区,中高等收入国家,0
+COM,科摩罗,Comoros,撒哈拉以南非洲地区,中低等收入国家,0
+CPV,佛得角,Cabo Verde,撒哈拉以南非洲地区,中高等收入国家,0
+CRI,哥斯达黎加,Costa Rica,拉丁美洲与加勒比海地区,高收入国家,0
+CSS,加勒比小国,Caribbean small states,,,1
+CUB,古巴,Cuba,拉丁美洲与加勒比海地区,中高等收入国家,0
+CUW,库拉索,Curacao,拉丁美洲与加勒比海地区,高收入国家,0
+CYM,开曼群岛,Cayman Islands,拉丁美洲与加勒比海地区,高收入国家,0
+CYP,塞浦路斯,Cyprus,欧洲与中亚地区,高收入国家,0
+CZE,捷克共和国,Czechia,欧洲与中亚地区,高收入国家,0
+DEU,德国,Germany,欧洲与中亚地区,高收入国家,0
+DJI,吉布提,Djibouti,中东、北非、阿富汗与巴基斯坦,中低等收入国家,0
+DMA,多米尼克,Dominica,拉丁美洲与加勒比海地区,中高等收入国家,0
+DNK,丹麦,Denmark,欧洲与中亚地区,高收入国家,0
+DOM,多米尼加共和国,Dominican Republic,拉丁美洲与加勒比海地区,中高等收入国家,0
+DZA,阿尔及利亚,Algeria,中东、北非、阿富汗与巴基斯坦,中高等收入国家,0
+EAP,东亚与太平洋地区（不包括高收入）,East Asia & Pacific (excluding high income),,,1
+EAR,早人口紅利,Early-demographic dividend,,,1
+EAS,东亚与太平洋地区,East Asia & Pacific,,,1
+ECA,欧洲与中亚地区（不包括高收入）,Europe & Central Asia (excluding high income),,,1
+ECS,欧洲与中亚地区,Europe & Central Asia,,,1
+ECU,厄瓜多尔,Ecuador,拉丁美洲与加勒比海地区,中高等收入国家,0
+EGY,阿拉伯埃及共和国,"Egypt, Arab Rep.",中东、北非、阿富汗与巴基斯坦,中低等收入国家,0
+EMU,欧洲货币联盟,Euro area,,,1
+ERI,厄立特里亚,Eritrea,撒哈拉以南非洲地区,低收入国家,0
+ESP,西班牙,Spain,欧洲与中亚地区,高收入国家,0
+EST,爱沙尼亚,Estonia,欧洲与中亚地区,高收入国家,0
+ETH,埃塞俄比亚,Ethiopia,撒哈拉以南非洲地区,低收入国家,0
+EUU,欧洲联盟,European Union,,,1
+FCV,脆弱、冲突与暴力（FCV）局势,"Fragility, Conflict, and Violence (FCV) situations",,,1
+FIN,芬兰,Finland,欧洲与中亚地区,高收入国家,0
+FJI,斐济,Fiji,东亚与太平洋地区,中高等收入国家,0
+FRA,法国,France,欧洲与中亚地区,高收入国家,0
+FRO,法罗群岛,Faroe Islands,欧洲与中亚地区,高收入国家,0
+FSM,密克罗尼西亚联邦,"Micronesia, Fed. Sts.",东亚与太平洋地区,中高等收入国家,0
+GAB,加蓬,Gabon,撒哈拉以南非洲地区,中高等收入国家,0
+GBR,英国,United Kingdom,欧洲与中亚地区,高收入国家,0
+GEO,格鲁吉亚,Georgia,欧洲与中亚地区,中高等收入国家,0
+GHA,加纳,Ghana,撒哈拉以南非洲地区,中低等收入国家,0
+GIB,直布罗陀,Gibraltar,欧洲与中亚地区,高收入国家,0
+GIN,几内亚,Guinea,撒哈拉以南非洲地区,中低等收入国家,0
+GMB,冈比亚,"Gambia, The",撒哈拉以南非洲地区,低收入国家,0
+GNB,几内亚比绍共和国,Guinea-Bissau,撒哈拉以南非洲地区,低收入国家,0
+GNQ,赤道几内亚,Equatorial Guinea,撒哈拉以南非洲地区,中高等收入国家,0
+GRC,希腊,Greece,欧洲与中亚地区,高收入国家,0
+GRD,格林纳达,Grenada,拉丁美洲与加勒比海地区,中高等收入国家,0
+GRL,格陵兰,Greenland,欧洲与中亚地区,高收入国家,0
+GTM,危地马拉,Guatemala,拉丁美洲与加勒比海地区,中高等收入国家,0
+GUM,关岛,Guam,东亚与太平洋地区,高收入国家,0
+GUY,圭亚那,Guyana,拉丁美洲与加勒比海地区,高收入国家,0
+HIC,高收入国家,High income,,,1
+HKG,中国香港特别行政区,"Hong Kong SAR, China",东亚与太平洋地区,高收入国家,0
+HND,洪都拉斯,Honduras,拉丁美洲与加勒比海地区,中低等收入国家,0
+HPC,重债穷国 (HIPC),Heavily indebted poor countries (HIPC),,,1
+HRV,克罗地亚,Croatia,欧洲与中亚地区,高收入国家,0
+HTI,海地,Haiti,拉丁美洲与加勒比海地区,中低等收入国家,0
+HUN,匈牙利,Hungary,欧洲与中亚地区,高收入国家,0
+IBD,只有IBRD,IBRD only,,,1
+IBT,IBRD与IDA,IDA & IBRD total,,,1
+IDA,IDA總,IDA total,,,1
+IDB,IDA混合,IDA blend,,,1
+IDN,印度尼西亚,Indonesia,东亚与太平洋地区,中高等收入国家,0
+IDX,只有IDA,IDA only,,,1
+IMN,马恩岛,Isle of Man,欧洲与中亚地区,高收入国家,0
+IND,印度,India,南亚,中低等收入国家,0
+INX,未分类国家,Not classified,,,1
+IRL,爱尔兰,Ireland,欧洲与中亚地区,高收入国家,0
+IRN,伊朗伊斯兰共和国,"Iran, Islamic Rep.",中东、北非、阿富汗与巴基斯坦,中高等收入国家,0
+IRQ,伊拉克,Iraq,中东、北非、阿富汗与巴基斯坦,中高等收入国家,0
+ISL,冰岛,Iceland,欧洲与中亚地区,高收入国家,0
+ISR,以色列,Israel,中东、北非、阿富汗与巴基斯坦,高收入国家,0
+ITA,意大利,Italy,欧洲与中亚地区,高收入国家,0
+JAM,牙买加,Jamaica,拉丁美洲与加勒比海地区,中高等收入国家,0
+JOR,约旦,Jordan,中东、北非、阿富汗与巴基斯坦,中高等收入国家,0
+JPN,日本,Japan,东亚与太平洋地区,高收入国家,0
+KAZ,哈萨克斯坦,Kazakhstan,欧洲与中亚地区,中高等收入国家,0
+KEN,肯尼亚,Kenya,撒哈拉以南非洲地区,中低等收入国家,0
+KGZ,吉尔吉斯斯坦,Kyrgyz Republic,欧洲与中亚地区,中低等收入国家,0
+KHM,柬埔寨,Cambodia,东亚与太平洋地区,中低等收入国家,0
+KIR,基里巴斯,Kiribati,东亚与太平洋地区,中低等收入国家,0
+KNA,圣基茨和尼维斯,St. Kitts and Nevis,拉丁美洲与加勒比海地区,高收入国家,0
+KOR,大韩民国,"Korea, Rep.",东亚与太平洋地区,高收入国家,0
+KWT,科威特,Kuwait,中东、北非、阿富汗与巴基斯坦,高收入国家,0
+LAC,拉丁美洲与加勒比海地区（不包括高收入）,Latin America & Caribbean (excluding high income),,,1
+LAO,老挝,Lao PDR,东亚与太平洋地区,中低等收入国家,0
+LBN,黎巴嫩,Lebanon,中东、北非、阿富汗与巴基斯坦,中低等收入国家,0
+LBR,利比里亚,Liberia,撒哈拉以南非洲地区,低收入国家,0
+LBY,利比亚,Libya,中东、北非、阿富汗与巴基斯坦,中高等收入国家,0
+LCA,圣卢西亚,St. Lucia,拉丁美洲与加勒比海地区,中高等收入国家,0
+LCN,拉丁美洲与加勒比海地区,Latin America & Caribbean ,,,1
+LDC,最不发达国家：联合国分类,Least developed countries: UN classification,,,1
+LIC,低收入国家,Low income,,,1
+LIE,列支敦士登,Liechtenstein,欧洲与中亚地区,高收入国家,0
+LKA,斯里兰卡,Sri Lanka,南亚,中高等收入国家,0
+LMC,中低等收入国家,Lower middle income,,,1
+LMY,中低收入国家,Low & middle income,,,1
+LSO,莱索托,Lesotho,撒哈拉以南非洲地区,中低等收入国家,0
+LTE,後期人口紅利,Late-demographic dividend,,,1
+LTU,立陶宛,Lithuania,欧洲与中亚地区,高收入国家,0
+LUX,卢森堡,Luxembourg,欧洲与中亚地区,高收入国家,0
+LVA,拉脱维亚,Latvia,欧洲与中亚地区,高收入国家,0
+MAC,中国澳门特别行政区,"Macao SAR, China",东亚与太平洋地区,高收入国家,0
+MAF,圣马丁（法属）,St. Martin (French part),拉丁美洲与加勒比海地区,高收入国家,0
+MAR,摩洛哥,Morocco,中东、北非、阿富汗与巴基斯坦,中低等收入国家,0
+MCO,摩纳哥,Monaco,欧洲与中亚地区,高收入国家,0
+MDA,摩尔多瓦,Moldova,欧洲与中亚地区,中高等收入国家,0
+MDG,马达加斯加,Madagascar,撒哈拉以南非洲地区,低收入国家,0
+MDV,马尔代夫,Maldives,南亚,中高等收入国家,0
+MEA,中东、北非、阿富汗与巴基斯坦,"Middle East, North Africa, Afghanistan & Pakistan",,,1
+MEX,墨西哥,Mexico,拉丁美洲与加勒比海地区,中高等收入国家,0
+MHL,马绍尔群岛,Marshall Islands,东亚与太平洋地区,中高等收入国家,0
+MIC,中等收入国家,Middle income,,,1
+MKD,北马其顿,North Macedonia,欧洲与中亚地区,中高等收入国家,0
+MLI,马里,Mali,撒哈拉以南非洲地区,低收入国家,0
+MLT,马耳他,Malta,中东、北非、阿富汗与巴基斯坦,高收入国家,0
+MMR,缅甸,Myanmar,东亚与太平洋地区,中低等收入国家,0
+MNA,中东与北非地区（不包括高收入）,"Middle East, North Africa, Afghanistan & Pakistan (excluding high income)",,,1
+MNE,黑山,Montenegro,欧洲与中亚地区,中高等收入国家,0
+MNG,蒙古,Mongolia,东亚与太平洋地区,中高等收入国家,0
+MNP,北马里亚纳群岛,Northern Mariana Islands,东亚与太平洋地区,高收入国家,0
+MOZ,莫桑比克,Mozambique,撒哈拉以南非洲地区,低收入国家,0
+MRT,毛里塔尼亚,Mauritania,撒哈拉以南非洲地区,中低等收入国家,0
+MUS,毛里求斯,Mauritius,撒哈拉以南非洲地区,中高等收入国家,0
+MWI,马拉维,Malawi,撒哈拉以南非洲地区,低收入国家,0
+MYS,马来西亚,Malaysia,东亚与太平洋地区,中高等收入国家,0
+NAC,北美,North America,,,1
+NAM,纳米比亚,Namibia,撒哈拉以南非洲地区,中低等收入国家,0
+NCL,新喀里多尼亚,New Caledonia,东亚与太平洋地区,高收入国家,0
+NER,尼日尔,Niger,撒哈拉以南非洲地区,低收入国家,0
+NGA,尼日利亚,Nigeria,撒哈拉以南非洲地区,中低等收入国家,0
+NIC,尼加拉瓜,Nicaragua,拉丁美洲与加勒比海地区,中低等收入国家,0
+NLD,荷兰,Netherlands,欧洲与中亚地区,高收入国家,0
+NOR,挪威,Norway,欧洲与中亚地区,高收入国家,0
+NPL,尼泊尔,Nepal,南亚,中低等收入国家,0
+NRU,瑙魯,Naoero,东亚与太平洋地区,高收入国家,0
+NZL,新西兰,New Zealand,东亚与太平洋地区,高收入国家,0
+OED,经合组织成员,OECD members,,,1
+OMN,阿曼,Oman,中东、北非、阿富汗与巴基斯坦,高收入国家,0
+OSS,其他小国,Other small states,,,1
+PAK,巴基斯坦,Pakistan,中东、北非、阿富汗与巴基斯坦,中低等收入国家,0
+PAN,巴拿马,Panama,拉丁美洲与加勒比海地区,高收入国家,0
+PER,秘鲁,Peru,拉丁美洲与加勒比海地区,中高等收入国家,0
+PHL,菲律宾,Philippines,东亚与太平洋地区,中高等收入国家,0
+PLW,帕劳,Palau,东亚与太平洋地区,高收入国家,0
+PNG,巴布亚新几内亚,Papua New Guinea,东亚与太平洋地区,中低等收入国家,0
+POL,波兰,Poland,欧洲与中亚地区,高收入国家,0
+PRE,預人口紅利,Pre-demographic dividend,,,1
+PRI,波多黎各,Puerto Rico (US),拉丁美洲与加勒比海地区,高收入国家,0
+PRK,朝鲜民主主义人民共和国,"Korea, Dem. People's Rep.",东亚与太平洋地区,低收入国家,0
+PRT,葡萄牙,Portugal,欧洲与中亚地区,高收入国家,0
+PRY,巴拉圭,Paraguay,拉丁美洲与加勒比海地区,中高等收入国家,0
+PSE,约旦河西岸和加沙,West Bank and Gaza,中东、北非、阿富汗与巴基斯坦,中低等收入国家,0
+PSS,太平洋岛国,Pacific island small states,,,1
+PST,人口紅利之後,Post-demographic dividend,,,1
+PYF,法属波利尼西亚,French Polynesia,东亚与太平洋地区,高收入国家,0
+QAT,卡塔尔,Qatar,中东、北非、阿富汗与巴基斯坦,高收入国家,0
+ROU,罗马尼亚,Romania,欧洲与中亚地区,高收入国家,0
+RUS,俄罗斯联邦,Russian Federation,欧洲与中亚地区,高收入国家,0
+RWA,卢旺达,Rwanda,撒哈拉以南非洲地区,低收入国家,0
+SAS,南亚,South Asia,,,1
+SAU,沙特阿拉伯,Saudi Arabia,中东、北非、阿富汗与巴基斯坦,高收入国家,0
+SDN,苏丹,Sudan,撒哈拉以南非洲地区,低收入国家,0
+SEN,塞内加尔,Senegal,撒哈拉以南非洲地区,中低等收入国家,0
+SGP,新加坡,Singapore,东亚与太平洋地区,高收入国家,0
+SLB,所罗门群岛,Solomon Islands,东亚与太平洋地区,中低等收入国家,0
+SLE,塞拉利昂,Sierra Leone,撒哈拉以南非洲地区,低收入国家,0
+SLV,萨尔瓦多,El Salvador,拉丁美洲与加勒比海地区,中高等收入国家,0
+SMR,圣马力诺,San Marino,欧洲与中亚地区,高收入国家,0
+SOM,索马里联邦共和国,"Somalia, Fed. Rep.",撒哈拉以南非洲地区,低收入国家,0
+SRB,塞尔维亚,Serbia,欧洲与中亚地区,中高等收入国家,0
+SSA,撒哈拉以南非洲地区（不包括高收入）,Sub-Saharan Africa (excluding high income),,,1
+SSD,南苏丹,South Sudan,撒哈拉以南非洲地区,低收入国家,0
+SSF,撒哈拉以南非洲地区,Sub-Saharan Africa ,,,1
+SST,小国,Small states,,,1
+STP,圣多美和普林西比,Sao Tome and Principe,撒哈拉以南非洲地区,中低等收入国家,0
+SUR,苏里南,Suriname,拉丁美洲与加勒比海地区,中高等收入国家,0
+SVK,斯洛伐克共和国,Slovak Republic,欧洲与中亚地区,高收入国家,0
+SVN,斯洛文尼亚,Slovenia,欧洲与中亚地区,高收入国家,0
+SWE,瑞典,Sweden,欧洲与中亚地区,高收入国家,0
+SWZ,斯威士兰,Eswatini,撒哈拉以南非洲地区,中低等收入国家,0
+SXM,圣马丁(荷属),Sint Maarten (Dutch part),拉丁美洲与加勒比海地区,高收入国家,0
+SYC,塞舌尔,Seychelles,撒哈拉以南非洲地区,高收入国家,0
+SYR,阿拉伯叙利亚共和国,Syrian Arab Republic,中东、北非、阿富汗与巴基斯坦,低收入国家,0
+TCA,特克斯科斯群岛,Turks and Caicos Islands,拉丁美洲与加勒比海地区,高收入国家,0
+TCD,乍得,Chad,撒哈拉以南非洲地区,低收入国家,0
+TEA,东亚与太平洋地区 (IBRD与IDA),East Asia & Pacific (IDA & IBRD countries),,,1
+TEC,欧洲与中亚地区 (IBRD与IDA),Europe & Central Asia (IDA & IBRD countries),,,1
+TGO,多哥,Togo,撒哈拉以南非洲地区,中低等收入国家,0
+THA,泰国,Thailand,东亚与太平洋地区,中高等收入国家,0
+TJK,塔吉克斯坦,Tajikistan,欧洲与中亚地区,中低等收入国家,0
+TKM,土库曼斯坦,Turkmenistan,欧洲与中亚地区,中高等收入国家,0
+TLA,拉丁美洲与加勒比海地区 (IBRD与IDA),Latin America & the Caribbean (IDA & IBRD countries),,,1
+TLS,东帝汶,Timor-Leste,东亚与太平洋地区,中低等收入国家,0
+TMN,中东与北非地区 (IBRD与IDA),"Middle East, North Africa, Afghanistan & Pakistan (IDA & IBRD)",,,1
+TON,汤加,Tonga,东亚与太平洋地区,中高等收入国家,0
+TSA,南亚 (IBRD与IDA),South Asia (IDA & IBRD),,,1
+TSS,撒哈拉以南非洲地区 (IBRD与IDA),Sub-Saharan Africa (IDA & IBRD countries),,,1
+TTO,特立尼达和多巴哥,Trinidad and Tobago,拉丁美洲与加勒比海地区,高收入国家,0
+TUN,突尼斯,Tunisia,中东、北非、阿富汗与巴基斯坦,中低等收入国家,0
+TUR,土耳其,Turkiye,欧洲与中亚地区,中高等收入国家,0
+TUV,图瓦卢,Tuvalu,东亚与太平洋地区,中高等收入国家,0
+TZA,坦桑尼亚,Tanzania,撒哈拉以南非洲地区,中低等收入国家,0
+UGA,乌干达,Uganda,撒哈拉以南非洲地区,低收入国家,0
+UKR,乌克兰,Ukraine,欧洲与中亚地区,中高等收入国家,0
+UMC,中高等收入国家,Upper middle income,,,1
+URY,乌拉圭,Uruguay,拉丁美洲与加勒比海地区,高收入国家,0
+USA,美国,United States,北美,高收入国家,0
+UZB,乌兹别克斯坦,Uzbekistan,欧洲与中亚地区,中低等收入国家,0
+VCT,圣文森特和格林纳丁斯,St. Vincent and the Grenadines,拉丁美洲与加勒比海地区,中高等收入国家,0
+VEN,委内瑞拉玻利瓦尔共和国,"Venezuela, RB",拉丁美洲与加勒比海地区,中低等收入国家,0
+VGB,英屬維爾京群島,British Virgin Islands,拉丁美洲与加勒比海地区,高收入国家,0
+VIR,美属维京群岛,Virgin Islands (U.S.),拉丁美洲与加勒比海地区,高收入国家,0
+VNM,越南,Viet Nam,东亚与太平洋地区,中高等收入国家,0
+VUT,瓦努阿图,Vanuatu,东亚与太平洋地区,中低等收入国家,0
+WLD,世界,World,,,1
+WSM,萨摩亚,Samoa,东亚与太平洋地区,中高等收入国家,0
+XKX,科索沃,Kosovo,欧洲与中亚地区,中高等收入国家,0
+YEM,也门共和国,"Yemen, Rep.",中东、北非、阿富汗与巴基斯坦,低收入国家,0
+ZAF,南非,South Africa,撒哈拉以南非洲地区,中高等收入国家,0
+ZMB,赞比亚,Zambia,撒哈拉以南非洲地区,中低等收入国家,0
+ZWE,津巴布韦,Zimbabwe,撒哈拉以南非洲地区,中低等收入国家,0
