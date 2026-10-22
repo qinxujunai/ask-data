@@ -45,3 +45,18 @@ export function formatValue(value, column) {
   if (kind) return `${trim(value, 2)} ${kind}`;
   return trim(value, Math.abs(value) >= 100 ? 0 : 2);
 }
+
+// A column title people can read: the indicator's name, a known word, or what kind of number it is.
+const WORDS = {
+  year: '年份', name: '国家或地区', name_en: '英文名', code: '代码', region: '地区', income: '收入组',
+  share_pct: '占比', ratio: '倍数', diff: '差值', from_year: '起始年', to_year: '截止年',
+  avg_growth_pct: '平均增速', india_population: '印度人口', china_population: '中国人口',
+};
+const KIND_WORDS = { pct: '比例（%）', usd: '金额（美元）', people: '人数', times: '倍数', count: '数量', year: '年份' };
+
+export function labelOf(column) {
+  const c = String(column);
+  if (COLUMN[c]) return COLUMN[c].name;
+  if (WORDS[c]) return WORDS[c];
+  return KIND_WORDS[kindOf(c)] || c;
+}

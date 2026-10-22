@@ -3,7 +3,7 @@
 
 import * as Plot from '@observablehq/plot';
 import { COLUMN } from './schema.js';
-import { kindOf, formatValue } from './engine/format.js';
+import { kindOf, formatValue, labelOf } from './engine/format.js';
 
 const COLORS = ['#0071e3', '#ff9f0a', '#34c759', '#af52de', '#ff2d55', '#5ac8fa', '#a2845e'];
 
@@ -21,8 +21,8 @@ const tipFormat = (spec) => ({ x: kindOf(spec.x) === 'year' ? (d) => String(d) :
 function label(column) {
   const c = COLUMN[column];
   if (c) return c.name.includes(c.unit) ? c.name : `${c.name}（${c.unit}）`;
-  const kind = kindOf(column);
-  return kind === 'pct' ? `${column}（%）` : column;
+  const words = labelOf(column);
+  return kindOf(column) === 'pct' && !words.includes('%') ? `${words}（%）` : words;
 }
 
 export function renderChart(spec, result, width) {

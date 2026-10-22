@@ -5,7 +5,7 @@ import { Database } from './db.js';
 import { Retriever } from './engine/retrieve.js';
 import { ask } from './engine/pipeline.js';
 import { createLLM, DEFAULT_MODEL } from './engine/llm.js';
-import { formatValue } from './engine/format.js';
+import { formatValue, labelOf } from './engine/format.js';
 import { renderChart } from './chart.js';
 import { EXAMPLES, SUGGESTED } from './knowledge/examples.js';
 import { COLUMN, INDICATORS } from './schema.js';
@@ -120,9 +120,7 @@ function view(r) {
   return parts;
 }
 
-// Column titles people can read: the indicator's name, or a plain word for the usual ones.
-const HEADINGS = { year: '年份', name: '国家或地区', name_en: '英文名', code: '代码', region: '地区', income: '收入组' };
-const heading = (c) => COLUMN[c]?.name || HEADINGS[c] || c;
+const heading = labelOf;
 
 function table({ columns, rows }) {
   const FEW = 8;
